@@ -7,6 +7,8 @@ let valueInNumber = Number(score);
 
 //"33"=> 33
 //"33abc"=> NaN
+//null->0
+//undefined-> NaN
 //true=> 1;
 //false=>0
 
@@ -15,7 +17,7 @@ let booleanisLiggedIn= Boolean(isLoggedIn);
 //console.log(booleanisLiggedIn)
 
 
-// 1+. true; 0=>false
+// 1=> true; 0=>false
 //""=> false
 //"rishabh"=>true
 
